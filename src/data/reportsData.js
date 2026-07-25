@@ -1,0 +1,85 @@
+export const reportActionCards = [
+  {
+    id: 'generate',
+    icon: 'add_chart',
+    title: 'Generate New Report',
+    description: 'Launch the AI wizard to compile multi-source data.',
+    variant: 'primary',
+  },
+  {
+    id: 'conversation',
+    icon: 'forum',
+    title: 'Conversation Export',
+    description: 'Convert AI Assistant chats into admissible evidence logs.',
+    iconColor: 'text-secondary',
+    bgIcon: 'chat_paste_go',
+  },
+  {
+    id: 'summary',
+    icon: 'summarize',
+    title: 'Investigation Summary',
+    description: 'Auto-generate executive summaries for active cases.',
+    iconColor: 'text-tertiary',
+    bgIcon: 'history_edu',
+  },
+]
+
+export const generatedReports = [
+  {
+    id: 'REP-2023-8942',
+    title: 'Crime Density Heatmap - Q3',
+    icon: 'map',
+    iconColor: 'text-primary',
+    iconBg: 'bg-primary-container',
+    date: '24 Oct 2023',
+    time: '14:22 IST',
+    author: 'Insp. Rajesh Kumar',
+    authorInitials: 'RK',
+    status: 'Complete',
+  },
+  {
+    id: 'REP-2023-8941',
+    title: 'Syndicate Link Analysis',
+    icon: 'hub',
+    iconColor: 'text-secondary',
+    iconBg: 'bg-surface-container-highest',
+    date: '23 Oct 2023',
+    time: '09:15 IST',
+    author: 'Sub. Insp. Anita S.',
+    authorInitials: 'AS',
+    status: 'Complete',
+  },
+  {
+    id: 'REP-2023-8940',
+    title: 'Annual Recidivism Forecast',
+    icon: 'analytics',
+    iconColor: 'text-tertiary',
+    iconBg: 'bg-surface-container-highest',
+    date: '23 Oct 2023',
+    time: '08:00 IST',
+    author: 'System Automated',
+    authorInitials: 'AI',
+    authorHighlight: true,
+    status: 'Processing',
+  },
+  {
+    id: 'REP-2023-8939',
+    title: 'Case Summary: FIR #4421/23',
+    icon: 'description',
+    iconColor: 'text-primary',
+    iconBg: 'bg-surface-container-highest',
+    date: '22 Oct 2023',
+    time: '17:45 IST',
+    author: 'Insp. Rajesh Kumar',
+    authorInitials: 'RK',
+    status: 'Complete',
+  },
+]
+
+export const reportPreviewMeta = {
+  pages: '24 Pages',
+  size: '4.2 MB',
+  summary:
+    'Analysis shows a 12% increase in localized incidents within Zone 4 during late-night hours. Correlation with recent infrastructure shifts suggested.',
+  confidence: 94.8,
+}
